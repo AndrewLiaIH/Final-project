@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Why move to Haarlemmerhoutkwartier?</title>
+    <link rel="icon" type="image/x-icon" href="img/Favicon.png">
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  </head>
+  <body>
+
+    <header>
+        <a href="Homepage.html"><img class="icon" src="./img/Favicon.png" alt="The website's icon"></a>
+      <ul>
+        <li class="homeButton"><a href="./Homepage.html">Home</a></li>
+        <li><a href="./Page1.html" target="_blank">Pros</a></li>
+        <li><a href="./Page2.html" target="_blank">Cons</a></li>
+        <li><a href="./Page3.html" target="_blank">Conclusion</a></li>
+        <li><a href="./Page4.html" target="_blank">Gallery</a></li>
+        <li class="contactButton currentPage"><a href="./Contact.html" target="_blank">Contact</a></li>
+      </ul>
+    </header>
+
+    <h1>Contact us</h1>
+
+    <p class="contact-text">
+        If you have any questions, suggestions, or want specific advice about something, let us know! You can do this by filling out the form below;
+        this will let us contact you and help with what you ask. The form on the right is an example of how you could fill it out. 
+    </p>
+
+<section class="contact">
+    <form action="ContactSubmitted.html" method="POST">
+        <section class="radiobutton">
+            <label for="Mr">Mr.</label>
+            <input type="radio" id="Mr" name="title" value="Mr">
+        
+            <label for="Mrs">Mrs.</label>
+            <input type="radio" id="Mrs" name="title" value="Mrs">
+
+            <label for="Other">Other</label>
+            <input type="radio" id="Other" name="title" value="Other">
+        </section>
+
+        <section class="name">
+            <label for="Name">Name*</label>
+            <input type="text" id="Name" placeholder="Enter your name here">
+        </section>
+
+        <section class="email">
+            <label for="Email">Email*</label>
+            <input type="email" id="Email" placeholder="Enter your email here">
+        </section>
+
+        <section class="tel">
+            <label for="Tel">Phone number</label>
+            <input type="tel" id="Tel" placeholder="Enter your phone number here">
+        </section>
+
+        <section class="message">
+            <label for="message">Request/Question</label>
+            <textarea id="message" name="message" rows="3" cols="40">Ask any questions that you have</textarea>
+        </section>
+
+        <section>
+        <input type="submit" class="submit" value="Submit">  
+        </section>
+          
+        <p class="required">*required field</p>
+    </form>
+
+    <p class="line"></p>
+
+    <form action="" method="POST" class="example-form">
+        <section class="radiobutton">
+            <label for="Mr">Mr.</label>
+            <input type="radio" id="Mr" name="title" value="Mr" checked>
+        
+            <label for="Mrs">Mrs.</label>
+            <input type="radio" id="Mrs" name="title" value="Mrs">
+
+            <label for="Other">Other</label>
+            <input type="radio" id="Other" name="title" value="Other">
+        </section>
+
+        <section class="name">
+            <label for="Name">Name*</label>
+            <input type="text" id="Name" placeholder="John Doe">
+        </section>
+
+        <section class="email">
+            <label for="Email">Email*</label>
+            <input type="email" id="Email" placeholder="JDoe99@examplemail.com">
+        </section>
+
+        <section class="tel">
+            <label for="Tel">Phone number</label>
+            <input type="tel" id="Tel" placeholder="(+31) 06 12345678">
+        </section>
+
+        <section class="message">
+            <label for="message">Request/Question</label>
+            <textarea id="message" name="message" rows="3" cols="40">I am very appreciative of the information on this site and just wanted to say “thank you!”</textarea>
+        </section>
+
+        <section>
+        <input type="submit" class="submit" value="Submit">  
+        </section>
+          
+        <p class="required">*required field</p>
+    </form>
+</section>
+    <section class="contact-buttons">
+    <a href="Page3.html"><img class="left-button" src="./img/leftButton.png" alt="An arrow taking you to the previous page"></a>
+    <a href="Page3.html"><img class="left-button" src="./img/leftButton.png" alt="An arrow taking you to the previous page"></a>
+</section>
+
+    <footer>&copy 2023. All rights reserved</footer>
+  </body>
+</html>

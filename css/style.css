@@ -1,0 +1,584 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+@media screen and (min-width: 769px){  
+header{
+  height: 9vh;
+  display: flex;
+  background-color: darkgreen;
+  justify-content:center;
+  align-items: center;
+}
+
+.icon{
+  position: absolute;
+  top: 12px;
+  left: 20px;
+  width: 2.3%;
+}
+
+ul{
+  display: flex;
+  list-style-type: none;  
+  align-content: center;
+  justify-content: center;
+}
+
+li{
+  display: flex;
+  height: 50px;
+  width: 50px;
+  background-color: brown;
+  border: white 2px solid;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.homeButton{  
+  position: absolute;
+  left: 80px;
+}
+
+.contactButton{
+  position: absolute;
+  right: 80px;
+}
+
+.currentPage{
+  background-color: black;
+}
+
+a:link{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: lightblue ;
+  text-decoration: underline;
+}
+
+h1{
+  margin: 30px 0px 50px 0px;  
+  text-align: center;
+  align-items: center;
+}
+
+h1, h2{
+  color: darkgreen;
+}
+
+h2, p{
+  position: relative;
+  left: 80px;
+  margin: 5px 0px 5px 0px;
+}
+
+footer{
+  background-color: darkgreen;
+  color: white;
+  height: 2.5vh;
+  position: fixed;  
+  bottom: 0px;
+  width: 100%;
+}
+
+.homepage{
+  display: grid;
+  grid-template-columns: 70% auto;
+  margin: 10px 0px 10px 0px;
+}
+
+.page1-button{
+  width: 30%;
+  position: relative;  
+  left: 100px;
+  bottom: 25px;
+}
+
+.homepage-last-line{
+  display: flex;
+}
+
+.text, .pictures{
+  width: 60%;
+}
+
+.pic2{
+  position: relative;
+  left: 336px;
+  width: 85.9%;
+}
+
+.page1-paragraph{  
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  margin: 15px 0px 15px 0px;
+}
+
+.leftPic{
+  position: relative;
+  left: 80px;
+}
+
+.page1-text{
+  position: relative;
+  right: 21px;
+  width: 80%;
+}
+
+.left-button{
+  width: 5%;
+  position: relative;
+  left: 80px;
+  margin: 20px;
+}
+
+.right-button{
+  width: 5%;
+  position: relative;
+  left: 1275px;
+  margin: 20px;
+}
+
+.page2-paragraph-top{
+  display: grid;
+  grid-template-columns: 70% auto;
+}
+
+.page2-text{
+  width: 60%;
+}
+
+.page2-paragraph-bottom{  
+  display: grid;
+  grid-template-columns: 20% auto;
+  margin-top: 50px;
+}
+
+table{
+  position: relative;
+  left: 75px;
+  width: 45%;
+  text-align: center;
+}
+
+tr:first-child{
+  background-color: gray;
+}
+
+tr:nth-child(odd){
+  background-color: gray;
+}
+
+th, td{
+  border: 2px black solid;
+}
+
+.page3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.page3-text{
+  position: relative;
+  right: 100px;
+  width: 50%
+}
+
+.page3-pic{
+  width: 15%;
+}
+
+.top-button{
+  position: relative;
+  bottom: 80px;
+  left: 1275px;
+}
+
+.bottom-button{
+  position: relative;
+  left:1153px;
+}
+
+.page4{
+  position: relative;
+  left: 80px;
+  width: 80%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto;  
+  margin: -20px 130px 20px 130px;
+}
+
+.page4-pic{ 
+  width: 70%;
+  margin: 10px 0px 10px 0px;
+} 
+
+.contact{
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  right: 80px;
+}
+
+.contact-text{
+  width:80%;
+}
+
+form{
+  position: relative;
+  left: 80px;
+  margin: 100px 0px 0px 0px;
+  max-width: 350px;
+  display:flex;
+  flex-direction: column;
+}
+
+.radiobutton, .name, .email, .tel, .message{
+  margin-bottom: 20px;
+}
+
+#Mr, #Mrs{
+  margin-right: 50px;
+}
+
+.name, .email, .tel, .message{
+  display: flex;
+  flex-direction: column;
+}
+
+#Name, #Email, #Tel{
+  width:200px;
+}
+
+#message{
+  width: 300px;
+}
+
+.submit{
+  width: 100px;
+  text-align: center;
+}
+
+.required{
+  position: relative;
+  bottom: 23px;
+  left: 120px;
+}
+
+.line{
+  border: 3px solid black;
+  height: 400px;
+}
+
+.contact-buttons{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.submitted-text{
+  color: black;
+}
+
+.submitted-paragraph{
+  width: 60%;
+  position: relative;
+  left: 350px;
+}
+
+.submitted-button{
+  margin-top: 20px;
+  position: relative;
+  left: 640px;
+  width: 20%;
+}  
+
+.row-of-buttons{
+  display: none;
+}
+
+.mobile-pictures{
+  display: none;
+}
+}
+
+@media screen and (max-width: 768px){
+
+  .page1-body{
+    display: flex;
+    flex-direction: column;
+  }  
+
+  header{    
+    height: 6vh;
+    display: flex;
+    background-color: darkgreen;
+    justify-content:center;
+    align-items: center;
+
+  }
+
+  footer{
+    background-color: darkgreen;
+    color: white;
+    height: 2vh;
+    position: fixed;  
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .currentPage{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border: white 2px solid;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+  }
+
+  li, .icon{
+    display:none;
+  }
+
+  
+a:link{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: lightblue ;
+  text-decoration: underline;
+}
+
+h1, h2{
+  color: green;
+}
+
+h1{
+  text-align: center;
+  margin: 20px 0px 20px 0px;
+}
+
+h2{
+  margin-bottom: 20px;
+}
+
+.text{
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.homepage{
+  display: grid;
+  justify-items: center;
+  margin-bottom: 20px;
+}
+
+.pictures{
+  width: 30%;
+}
+
+.homepage-last-line{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.home-button{
+  width: 20%;
+  margin-top: 50px;
+}
+
+.page1-paragraph{
+  display: grid;
+  justify-items: center;
+}
+
+.page1-text{
+  width: 80%;
+}
+
+.mobile-group{
+  display: flex;
+  justify-content: space-between;
+}
+
+.pc-pic, .line, .example-form{
+  display: none;
+}
+
+.mobile-pictures{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px 20px 0px;
+}
+
+.left-button{
+  width: 20%;
+}
+
+.right-button{
+  width: 40%;
+  position: relative;
+  left: 90px;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin-top: 20px;
+}
+
+.page2-text{
+  width: 80%;
+  margin-bottom: 40px;
+}
+
+.page2-paragraph-top{
+  display: grid;
+  justify-items: center;
+  margin: 80px 0px 20px 0px;
+}
+
+.page2-paragraph-bottom{
+  display: flex;
+  margin: 60px 0px 30px 30px;
+}
+
+table{
+  text-align: center;
+  margin-right: 20px;
+}
+
+tr:first-child{
+  background-color: gray;
+}
+
+tr:nth-child(odd){
+  background-color: gray;
+}
+
+th, td{
+  border: 2px black solid;
+}
+
+.page2-buttons{
+  position: relative;
+  left: 150px;
+}
+
+.page3{  
+  display: grid;
+  justify-items: center;
+}
+
+.page3-text{
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.page3-buttons{
+  width: 80%;
+}
+
+.page4{  
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  justify-items: center;
+}
+
+.page4-pic{
+  margin: 20px 20px 20px 20px;
+  width: 60%;
+}
+
+.page4-buttons{
+  position: relative;
+  left: 60px;
+  width: 90%;
+}
+
+.contact-text{
+  width:80%;
+  position: relative;
+  left: 40px;
+  margin-bottom: 50px;
+}
+
+form{
+  margin-left: 40px;
+}
+
+.radiobutton, .name, .email, .tel, .message{
+  margin-bottom: 20px;
+}
+
+#Mr, #Mrs{
+  margin-right: 50px;
+}
+
+.name, .email, .tel, .message{
+  display: flex;
+  flex-direction: column;
+}
+
+#Name, #Email, #Tel{
+  width:200px;
+}
+
+#message{
+  width: 300px;
+}
+
+.submit{
+  margin-bottom: 20px;
+}
+
+.contact-buttons{
+  margin-top: 100px;
+  position: relative;
+  left: 40px;
+  width: 50%;
+}
+
+.submitted-paragraph{
+  width: 80%;
+  margin-top: 40px;
+  position: relative;
+  left: 100px;
+  color: black;
+}
+
+.submitted-button{
+  width: 60%;
+  position: relative;
+  left: 145px;
+  margin-top: 40px;
+}
+
+.row-of-buttons{
+  margin-top: 40px;
+  display: flex;
+  position: relative;
+  left: 40px;
+}
+
+.mobile-button{
+  width: 30%;
+}
+}

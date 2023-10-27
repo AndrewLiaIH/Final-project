@@ -7,7 +7,7 @@
 header{
   height: 9vh;
   display: flex;
-  background-color: darkgreen;
+  background-color: #274015;
   justify-content:center;
   align-items: center;
 }
@@ -68,7 +68,7 @@ h1{
 }
 
 h1, h2{
-  color: darkgreen;
+  color: #274015;
 }
 
 h2, p{
@@ -78,7 +78,7 @@ h2, p{
 }
 
 footer{
-  background-color: darkgreen;
+  background-color: #274015;
   color: white;
   height: 2.5vh;
   position: fixed;  
@@ -105,12 +105,6 @@ footer{
 
 .text, .pictures{
   width: 60%;
-}
-
-.pic2{
-  position: relative;
-  left: 336px;
-  width: 85.9%;
 }
 
 .page1-paragraph{  
@@ -301,11 +295,7 @@ form{
   width: 20%;
 }  
 
-.row-of-buttons{
-  display: none;
-}
-
-.mobile-pictures{
+.row-of-buttons, .mobile-pictures, .mobile-rightarrow, .mobile-leftarrow, .mobile-menu{
   display: none;
 }
 }
@@ -320,14 +310,13 @@ form{
   header{    
     height: 6vh;
     display: flex;
-    background-color: darkgreen;
+    background-color: #274015;
     justify-content:center;
     align-items: center;
-
   }
 
   footer{
-    background-color: darkgreen;
+    background-color: #274015;
     color: white;
     height: 2vh;
     position: fixed;  
@@ -364,7 +353,7 @@ a:hover {
 }
 
 h1, h2{
-  color: green;
+  color: #274015;
 }
 
 h1{
@@ -389,6 +378,11 @@ h2{
 
 .pictures{
   width: 30%;
+}
+
+.figure{
+  display: grid;  
+  justify-items: center;
 }
 
 .homepage-last-line{
@@ -495,6 +489,11 @@ th, td{
   width: 80%;
 }
 
+.caption-page3{
+  position: relative;
+  left: 45px;
+}
+
 .page4{  
   display: grid;
   grid-template-columns: auto auto auto;
@@ -552,8 +551,18 @@ form{
 .contact-buttons{
   margin-top: 100px;
   position: relative;
-  left: 40px;
-  width: 50%;
+  left: 40px;  
+  display: flex;
+  max-width: fit-content;
+}
+
+.contact-figure{
+  width: 200px;
+}
+
+.contact-caption{
+  position: relative;
+  right: 80px;
 }
 
 .submitted-paragraph{
@@ -576,9 +585,37 @@ form{
   display: flex;
   position: relative;
   left: 40px;
+  max-width: 750px;
+  justify-content: center;
+  align-items: center;
 }
 
 .mobile-button{
   width: 30%;
+  max-width: 150px;
+}
+
+.mobile-rightarrow{
+  width: 55%;
+  position: relative;
+  top: 2px;
+  left: 50px;
+}
+
+.mobile-leftarrow{
+  width: 55%;
+  align-content: right;
+  position: relative;
+  top: 2px
+}
+
+.submitted-button-caption{
+  position: relative;
+  right:55px
+}
+
+.mobile-menu{
+  position: relative;
+  right: 170px;
 }
 }

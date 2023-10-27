@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 *{
   margin: 0px;
   padding: 0px;
+}
+
+body{
+ font-family: 'Roboto', serif;
 }
 
 @media screen and (min-width: 769px){  
@@ -30,7 +36,7 @@ li{
   display: flex;
   height: 50px;
   width: 50px;
-  background-color: brown;
+  background-color: #403A1F;
   border: white 2px solid;
   justify-content: center;
   align-items: center;
@@ -84,6 +90,29 @@ footer{
   position: fixed;  
   bottom: 0px;
   width: 100%;
+}
+
+.cookies{
+  width: 200px;
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  right: 0px;
+  z-index: 9999;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+  letter-spacing: 1px;
+  line-height: 15px;
+  text-indent: 1px;
+  word-spacing: 5px;
+  background-color: #403A1F;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.cookies::first-letter{
+  font-size: 1.5em;
 }
 
 .homepage{
@@ -298,6 +327,11 @@ form{
 .row-of-buttons, .mobile-pictures, .mobile-rightarrow, .mobile-leftarrow, .mobile-menu{
   display: none;
 }
+
+a.text-link{
+  text-decoration: underline;
+  color: blue;
+}
 }
 
 @media screen and (max-width: 768px){
@@ -313,6 +347,29 @@ form{
     background-color: #274015;
     justify-content:center;
     align-items: center;
+  }
+
+  .cookies{
+    width: 200px;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    right: 0px;
+    z-index: 9999;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    letter-spacing: 1px;
+    line-height: 15px;
+    text-indent: 1px;
+    word-spacing: 5px;
+    background-color: #403A1F;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+  }
+  
+  .cookies::first-letter{
+    font-size: 1.5em;
   }
 
   footer{
@@ -604,7 +661,6 @@ form{
 
 .mobile-leftarrow{
   width: 55%;
-  align-content: right;
   position: relative;
   top: 2px
 }
@@ -617,5 +673,10 @@ form{
 .mobile-menu{
   position: relative;
   right: 170px;
+}
+
+a.text-link{
+  text-decoration: underline;
+  color: blue;
 }
 }
